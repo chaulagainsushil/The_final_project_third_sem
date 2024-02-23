@@ -79,6 +79,8 @@ img{
     font-weight: bold;
     font-weight: light;
     font-style: italic;
+    text-align: justify;
+  text-justify: inter-word;
 }
 h2{
     font-size:30px;
@@ -123,4 +125,5 @@ text-decoration: double underline;
   #contact{
     background-color: #04AA6D;
   }
+  .info
   
