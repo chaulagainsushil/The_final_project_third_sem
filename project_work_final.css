@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
 }
 
 
@@ -43,6 +44,7 @@ nav ul li a:hover{
     margin: 20auto;
     padding: 20px;
     
+    
 }
 
 section{
@@ -69,7 +71,7 @@ img{
 #image{
 
     position:relative;
-    left: 200px;
+    left: 150px;
   
     
   }
@@ -81,6 +83,7 @@ img{
     font-style: italic;
     text-align: justify;
   text-justify: inter-word;
+  font-family: Arial, Helvetica, sans-serif;
 }
 h2{
     font-size:30px;
@@ -125,5 +128,102 @@ text-decoration: double underline;
   #contact{
     background-color: #04AA6D;
   }
-  .info
+  footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to right, #00093c,#2d0b00);
+    color: #fff;
+    padding: 100px 0 30px;
+   border-top-left-radius: 125px;
+   font-size:13px ;
+   line-height: 20px;
+   z-index: 10;
+   left: 0;
+
+  }
+  .row{
+width:85% ;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+align-items: flex-start;
+justify-content: space-between;
+  }
+  .col{
+    flex-basis: 25%;
+    padding: 10px;
+
+  }
+  .logo{
+    width: 80px;
+    margin-bottom: 30px;
+  }
+  .col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  .email-id{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+
+  }
+  ul li{
+    list-style: none;
+    margin-bottom: 12px;
+  }
+  ul li a{
+    text-decoration: none;
+    color: #fff;
+  }
+  form{
+padding-bottom: 15px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-bottom: 1px solid #ccc;
+margin-bottom: 50px;
+  }
+  .fpara{
+    text-justify: inter-word;
+  }
+  form .fa-regular{
+    font-size: 18px;
+    margin: 10px;
+  
+  }
+  form input{
+    width:100%;
+    background: transparent;
+    color: #ccc;
+    border:0 ;
+    outline: none;
+
+  }
+  form buttom{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+  }
+  form buttom .fa-solid{
+    font-size: 16px;
+    color: #ccc;
+  }
+  .cocial~icons .fa-brands{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+text-align: center;
+line-height: 40px;
+font-size: 20px;
+color: #000;
+background: #fff;
+margin-right: 15px;
+cursor: pointer;
+
+  }
+
   
