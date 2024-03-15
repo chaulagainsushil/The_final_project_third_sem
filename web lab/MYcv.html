@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="from.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY_CV</title>
 </head>
-<body>
+<body class="whole">
     <table >
         <tr>
-            <td></td>
-            <h3 >DEMOGRAPHIC INFORMATION</h3>
+            <td>
+            <h3 class="top">DEMOGRAPHIC INFORMATION</h3>
             </td>
         </tr>
 
@@ -17,7 +18,8 @@
     <form action="citizenshipdetail.html">
         <div>
             <br>
-            Surname :<input type="text" id="name" name="name " required>
+            Surname :
+            <input type="text" id="name" name="name " required>
             <br/>
             <br>
             First Name : <input type="text" id="last name" name="last name " required>
@@ -25,21 +27,21 @@
         </div>
         <DIV>
             <br>
-            <h5>Gender*</h5>
+            <h5>Gender</h5>
             <input type="radio" name="gender" required> Male
             <br><input type="radio" name="gender" required>Female <br/>
             <br/>
         </DIV>
         <div>
-            <h5>Date of birth(B.S) (yyyy-mm-dd)* <h5>
-                <input type="date" name="datetime" id="datetime" >
+            <h5>Date of birth(B.S)(yyyy-mm-dd) <h5>
+                <input  type="date" name="datetime" id="datetime" >
 
 
 
                     
 
-                    <h5>Date of birth (A.D) </h5>
-                    <input type="date" name="datetime" id="datetime">
+                    <h5>Date of birth(A.D) </h5>
+                    <input  type="date" name="datetime" id="datetime">
         </div>
         <div>
             <br>
@@ -48,7 +50,7 @@
             </span>
 
 
-            <input type="text" id="name" name="name " required>
+            <input maxlength="10" type="text" id="name" name="name " required>
         </div>
         <br/>
 <br>
